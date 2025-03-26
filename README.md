@@ -13,24 +13,8 @@ git clone https://github.com/seeadragon/Visual-Recognition-using-Deep-Learning-H
 Python                    3.9.21  
 pytorch-cuda              11.8  
 torchvision               0.20.1  
-
-## Dataset Structure
-data/  
-├── train/  
-│   ├── class_0/  
-│   │   ├── img_0.jpg  
-│   │   ├── img_1.jpg  
-│   │   └── ...  
-│   ├── class_1/  
-│   └── ...  
-├── val/  
-│   ├── class_0/  
-│   ├── class_1/  
-│   └── ...  
-└── test/  
-    ├── img_0.jpg  
-    ├── img_1.jpg  
-    └── ...  
+numpy                     2.0.1  
+pillow                    11.1.0  
 
 
 ## Usage
