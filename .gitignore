@@ -1,1 +1,7 @@
 data/
+model/
+log/
+code/
+__pycache__/
+*.zip
+*.csv
