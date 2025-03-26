@@ -183,9 +183,9 @@ def save_to_csv(results, output_path):
 
 
 if __name__ == '__main__':
-    test_loaders = load_data()
-    model = load_model()
+    resnet50 = load_model()
+    test_data = load_data()
 
-    results = evaluate(model, test_loaders)
-    save_to_csv(results, 'prediction.csv')
-    print(f'model parameters: {model.count_params()}')
+    pred = evaluate(resnet50, test_data)
+    save_to_csv(pred, 'prediction.csv')
+    print(f'model parameters: {resnet50.count_params()}')

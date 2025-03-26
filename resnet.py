@@ -30,11 +30,10 @@ class ResNet(nn.Module):
         self.layer2 = self.base_model.layer2
         self.layer3 = self.base_model.layer3
         self.layer4 = self.base_model.layer4
+        self.avgpool = self.base_model.avgpool
 
         self.layer3.add_module('dropout', nn.Dropout2d(0.3))
         self.layer4.add_module('dropout', nn.Dropout2d(0.3))
-
-        self.avgpool = self.base_model.avgpool
 
         self.fc = nn.Sequential(
             nn.Linear(2048, 1024),
