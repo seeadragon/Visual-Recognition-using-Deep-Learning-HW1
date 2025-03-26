@@ -15,22 +15,22 @@ pytorch-cuda              11.8
 torchvision               0.20.1  
 
 ## Dataset Structure
-data/
-├── train/
-│   ├── class_0/
-│   │   ├── img_0.jpg
-│   │   ├── img_1.jpg
-│   │   └── ...
-│   ├── class_1/
-│   └── ...
-├── val/
-│   ├── class_0/
-│   ├── class_1/
-│   └── ...
-└── test/
-    ├── img_0.jpg
-    ├── img_1.jpg
-    └── ...
+data/  
+├── train/  
+│   ├── class_0/  
+│   │   ├── img_0.jpg  
+│   │   ├── img_1.jpg  
+│   │   └── ...  
+│   ├── class_1/  
+│   └── ...  
+├── val/  
+│   ├── class_0/  
+│   ├── class_1/  
+│   └── ...  
+└── test/  
+    ├── img_0.jpg  
+    ├── img_1.jpg  
+    └── ...  
 
 
 ## Usage
